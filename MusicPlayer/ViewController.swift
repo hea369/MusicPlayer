@@ -64,10 +64,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     func invalidateTimer() {
         self.timer.invalidate()
         self.timer = nil
-        
     }
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -117,9 +114,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             let alert: UIAlertController = UIAlertController(title: "알림", message: message, preferredStyle: UIAlertController.Style.alert)
             
             let okAction : UIAlertAction = UIAlertAction(title: "알림", style: UIAlertAction.Style.default) { (action: UIAlertAction) -> Void in
-                
+
                 self.dismiss(animated: true, completion: nil)
-                
             }
             
             alert.addAction(okAction)
