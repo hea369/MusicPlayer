@@ -66,6 +66,9 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         self.timer = nil
         
     }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.initializePlayer()
