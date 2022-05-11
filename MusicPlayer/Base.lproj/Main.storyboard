@@ -49,7 +49,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="playPauseBotton" destination="JhD-ry-sup" id="gxd-0a-knQ"/>
+                        <outlet property="playPasueButton" destination="JhD-ry-sup" id="sFA-kO-Ge0"/>
                         <outlet property="progressSlider" destination="3iS-OW-txR" id="UOh-nc-Ugg"/>
                         <outlet property="timeLabel" destination="cJh-42-KrA" id="wFt-j6-mUw"/>
                     </connections>
