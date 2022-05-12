@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JhD-ry-sup">
-                                <rect key="frame" x="20" y="144" width="374" height="189"/>
+                                <rect key="frame" x="20" y="94" width="374" height="189"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="button_play">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
@@ -29,14 +29,14 @@
                                 </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="3iS-OW-txR">
-                                <rect key="frame" x="8" y="450" width="398" height="31"/>
+                                <rect key="frame" x="8" y="370" width="398" height="31"/>
                                 <color key="minimumTrackTintColor" systemColor="systemPinkColor"/>
                                 <connections>
                                     <action selector="sliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="5sh-MW-Etd"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJh-42-KrA">
-                                <rect key="frame" x="150" y="383" width="114" height="17"/>
+                                <rect key="frame" x="150" y="333" width="114" height="17"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -47,11 +47,11 @@
                         <constraints>
                             <constraint firstItem="JhD-ry-sup" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MhM-6k-mlg"/>
                             <constraint firstItem="3iS-OW-txR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Uww-zM-FZQ"/>
-                            <constraint firstItem="3iS-OW-txR" firstAttribute="top" secondItem="cJh-42-KrA" secondAttribute="bottom" constant="50" id="aA4-Yb-tVA"/>
+                            <constraint firstItem="3iS-OW-txR" firstAttribute="top" secondItem="cJh-42-KrA" secondAttribute="bottom" constant="20" id="aA4-Yb-tVA"/>
                             <constraint firstItem="cJh-42-KrA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="cUb-wI-UM4"/>
                             <constraint firstItem="3iS-OW-txR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e7A-ro-ovt"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JhD-ry-sup" secondAttribute="trailing" constant="20" id="g8u-ZU-Rk0"/>
-                            <constraint firstItem="JhD-ry-sup" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="gXA-PK-h3g"/>
+                            <constraint firstItem="JhD-ry-sup" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="gXA-PK-h3g"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3iS-OW-txR" secondAttribute="trailing" constant="10" id="lC7-Er-NiJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cJh-42-KrA" secondAttribute="trailing" constant="150" id="lF6-Rv-Irf"/>
                             <constraint firstItem="JhD-ry-sup" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="n1p-6a-qgb"/>
